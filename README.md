@@ -1,56 +1,17 @@
-# Hi, I'm John Peng 👋
+# John Peng
 
 **Electrical & Computer Engineering @ USC · Class of 2027**
 *Robotics, embedded systems, and the hardware that holds them together.*
 
 I build robots and the electronics inside them: firmware, PCBs, actuator control, and the ROS 2 software on top. Currently at SRAM and Terra Labs, and running technical resources for USC Makers. Before that, LLM/RAG infrastructure at Manycore Tech and multi-legged locomotion research in USC's Robot Locomotion and Navigation Dynamics Lab.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yc--john--peng-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yc-john-peng/)
-[![Email](https://img.shields.io/badge/Email-johnpeng%40usc.edu-D14836?style=flat&logo=gmail&logoColor=white)](mailto:johnpeng@usc.edu)
+LinkedIn: [linkedin.com/in/yc-john-peng](https://www.linkedin.com/in/yc-john-peng/)
+
+Email: johnpeng {at} usc [dot] edu
 
 ---
 
-## 🛠️ Tech Stack
-
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-e16737?style=flat&logo=mathworks&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-1a1a1a?style=flat)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-
-**Robotics & Embedded**
-![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
-![MoveIt](https://img.shields.io/badge/MoveIt-22314E?style=flat)
-![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=flat)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
-![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat&logo=nvidia&logoColor=white)
-![CAN](https://img.shields.io/badge/CAN-555555?style=flat)
-![I2C / SPI / UART](https://img.shields.io/badge/I2C_·_SPI_·_UART-555555?style=flat)
-![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat&logo=bluetooth&logoColor=white)
-
-**Hardware Design**
-![Altium](https://img.shields.io/badge/Altium-A5915F?style=flat&logo=altiumdesigner&logoColor=white)
-![KiCad](https://img.shields.io/badge/KiCad-3145A0?style=flat&logo=kicad&logoColor=white)
-![PCBA](https://img.shields.io/badge/PCBA_·_Reflow-333333?style=flat)
-![Oscilloscope](https://img.shields.io/badge/Oscilloscopes_·_Logic_Analyzers-333333?style=flat)
-
-**AI & Software**
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat&logo=yolo&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-
----
-
-## 💼 Experience
+## Experience
 
 ### **SRAM** | Advanced Development Engineering Intern
 *Chicago, IL · Jun 2026 – Present*
@@ -91,10 +52,10 @@ I build robots and the electronics inside them: firmware, PCBs, actuator control
 
 ---
 
-## 🚀 Projects
+## Projects
 
-### 🧗 FlexSense: Tactile Sensing for Scrambler
-*🏆 2nd Place, Himalaya Robotics Hack 2026 · [ycjohnp/aruco-compliant-hand](https://github.com/ycjohnp/aruco-compliant-hand)*
+### FlexSense: Tactile Sensing for Scrambler
+*2nd Place, Himalaya Robotics Hack 2026 · [ycjohnp/aruco-compliant-hand](https://github.com/ycjohnp/aruco-compliant-hand)*
 
 <img src="https://raw.githubusercontent.com/ycjohnp/aruco-compliant-hand/main/docs/hud_wrapping.png" width="700">
 
@@ -108,7 +69,7 @@ FlexSense is that sensing system: ArUco markers on each finger, tracked by a wri
 * **Live Tool:** Classifies each finger as wrapping, neutral, or back-bending and renders the bent CAD over the camera view. 123 unit tests.
 * **Stack:** Python, OpenCV, NumPy. Developed on a LeRobot SO-101; platform-independent.
 
-### 🔌 Circuit Sensei: AI Agent for Breadboard Assembly
+### Circuit Sensei: AI Agent for Breadboard Assembly
 *LA Hacks 2026*
 
 <img src="https://raw.githubusercontent.com/ycjohnp/pictures_for_lahacks/main/original_test_led.png" width="700">
@@ -122,7 +83,7 @@ Describe a circuit in plain language and Circuit Sensei walks you to a physicall
 
 <img src="https://raw.githubusercontent.com/ycjohnp/pictures_for_lahacks/main/Blank%20diagram%20(6).png" width="900">
 
-### 🦾 Cove: 7-DOF Robotic Arm
+### Cove: 7-DOF Robotic Arm
 *Terra Labs · Robotics Engineer · Feb 2026 – Present · [ycjohnp/cove_motion_moveit2](https://github.com/ycjohnp/cove_motion_moveit2)*
 
 A 7-DOF arm built in 10 weeks. I designed the control architecture: ROS 2 on a Raspberry Pi 5 commanding CAN-based BLDC actuators.
@@ -131,13 +92,13 @@ A 7-DOF arm built in 10 weeks. I designed the control architecture: ROS 2 on a R
 * **Safety:** Hardware and software e-stop with heartbeat timeout, torque cutoff, and ROS 2 fault monitoring.
 * **Simulation:** URDF with joint dynamics, transmission tags, and collision geometry for Gazebo and MoveIt 2.
 
-### 🐛 Tether: 7-DOF Inch-Worm Robot
+### Tether: 7-DOF Inch-Worm Robot
 *Terra Labs · Project Manager · Sep 2026 – Present*
 
 Follow-on to Cove. A 7-DOF robot that locomotes by inching along a surface. In development.
 
-### 👓 Vyz: Sensory Adaptation Headset
-*🏆 Best Hardware Project, LA TechWeek AI/ML Buildathon · Oct 2025*
+### Vyz: Sensory Adaptation Headset
+*Best Hardware Project, LA TechWeek AI/ML Buildathon · Oct 2025*
 
 <p float="left">
 <img src="https://github.com/RakshetaK/GVO-Repo/blob/main/Images/vyz-physical-wearable.JPG" width="300">
@@ -150,7 +111,7 @@ A Jetson-powered headset that detects and mitigates visual and auditory overstim
 * **Software:** Multithreaded Python with OpenCV brightness tracking, real-time SciPy audio filtering, and a Flask API to external inference.
 * **Response:** GPT-3.5-based intervention engine selects parameters with end-to-end latency under **200 ms**.
 
-### 🛹 SkateMo: Autonomous Skateboard
+### SkateMo: Autonomous Skateboard
 *USC Makers · Technical Project Lead · Aug 2025 – May 2026*
 
 Led a six-person team building a self-driving skateboard, owning integration across perception, navigation, and embedded control.
@@ -160,7 +121,7 @@ Led a six-person team building a self-driving skateboard, owning integration acr
 * **Control:** BLDC motor firmware for speed regulation, current limiting, and direction.
 * **Integration:** Ran design reviews and full-system testing across electrical, mechanical, and software subsystems.
 
-### 🤖 Self-Assembling Modular Robot System
+### Self-Assembling Modular Robot System
 *Independent Research · [ycjohnp/self-assembling-modular-robots](https://github.com/ycjohnp/self-assembling-modular-robots)*
 
 <img src="https://github.com/john02px/modular-robot/blob/main/modular-robot/Project%20Photos/Multi%20Module.JPG?raw=true" width="500">
@@ -173,7 +134,7 @@ Modules that locate one another, attach, and reconfigure to complete a task.
 
 [![Modular Robot Demo](http://img.youtube.com/vi/8HDp2pXij3Y/0.jpg)](http://www.youtube.com/watch?v=8HDp2pXij3Y "Modular Robot Demo")
 
-### 🖨️ Camshaft-Powered Braille Embosser
+### Camshaft-Powered Braille Embosser
 *Independent Research · [ycjohnp/novel-camshaft-braille-embosser](https://github.com/ycjohnp/novel-camshaft-braille-embosser)*
 
 <img src="https://raw.githubusercontent.com/john02px/braille-embosser/main/Project%20Images%20and%20Diagrams/Machine%20Picture%20(with%20banana%20for%20scale).jpg" width="400">
@@ -183,21 +144,21 @@ Commercial embossers cost $2,000+ and rely on loud linear solenoids. This design
 * **Cost:** ~$160 in parts.
 * **Performance:** Under 60 dB operating noise, dot height held to ±0.12 mm.
 
-### 🥋 Karate Kid: Motion-Tracking Training Wearable
+### Karate Kid: Motion-Tracking Training Wearable
 *USC Makers · Wireless Systems Lead · Feb 2025 – May 2025*
 
 * **PCB:** Custom two-layer KiCad board with ESP32, 6-DoF IMU, and MOSFET-driven haptic motors.
 * **Firmware:** Maps IMU quaternions onto a Unity skeleton over UDP.
 * **Manufacturing:** BOM generation, stencil ordering, and reflow assembly for the prototype run.
 
-### 🏠 IoT Smart Room Control
+### IoT Smart Room Control
 *EE250 Final Project · [Repository](https://github.com/NamithGang/EE250FinalProject)*
 
 <img src="https://raw.githubusercontent.com/NamithGang/EE250FinalProject/refs/heads/main/overall_diagram.png" width="700">
 
 * **Stack:** Raspberry Pi 4 (vision, YOLOv3-Tiny presence detection) and Arduino Uno (actuation) over UART, with a web dashboard for control.
 
-### 🌡️ Embedded Temperature Monitor
+### Embedded Temperature Monitor
 *USC Embedded Systems · Spring 2025*
 
 <img src="https://raw.githubusercontent.com/ycjohnp/pictures_for_lahacks/main/20250429_004539.jpg" width="400">
@@ -205,9 +166,3 @@ Commercial embossers cost $2,000+ and rely on loud linear solenoids. This design
 * **Hardware:** DS18B20 sensor, LCD, rotary encoder, servo, RGB LED.
 * **Firmware:** Timer-based control, EEPROM-stored thresholds, PWM, interrupts, and UART alerts.
 
----
-
-## 📫 Contact
-
-* [LinkedIn](https://www.linkedin.com/in/yc-john-peng/)
-* johnpeng@usc.edu
