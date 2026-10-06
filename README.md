@@ -3,7 +3,7 @@
 **Electrical & Computer Engineering @ USC · Class of 2027**
 *Robotics, embedded systems, and the hardware that holds them together.*
 
-I build robots and the electronics inside them: firmware, PCBs, actuator control, and the ROS 2 software on top. Currently at SRAM and Terra Labs, and running technical resources for USC Makers. Before that, LLM/RAG infrastructure at Manycore Tech and multi-legged locomotion research in USC's Robot Locomotion and Navigation Dynamics Lab.
+I build robots and the electronics inside them: firmware, PCBs, actuator control, and the ROS 2 software on top. Currently at Terra Labs and running technical resources for USC Makers. Previously an advanced development engineering intern at SRAM, LLM/RAG infrastructure at Manycore Tech, and multi-legged locomotion research in USC's Robot Locomotion and Navigation Dynamics Lab.
 
 LinkedIn: [linkedin.com/in/yc-john-peng](https://www.linkedin.com/in/yc-john-peng/)
 
@@ -14,7 +14,7 @@ Email: johnpeng {at} usc [dot] edu
 ## Experience
 
 ### **SRAM** | Advanced Development Engineering Intern
-*Chicago, IL · Jun 2026 – Present*
+*Chicago, IL · Jun 2026 – Aug 2026*
 * **PCB Design:** Compact Altium boards for AC-signal handling, balancing electrical performance against cost, manufacturability, and supply-chain constraints.
 * **PCBA & Bring-Up:** Component selection, prototype assembly, board bring-up, and electrical debugging through design iteration.
 * **Firmware & App:** Firmware and Android development for a resource-constrained embedded product.
@@ -22,7 +22,7 @@ Email: johnpeng {at} usc [dot] edu
 
 ### **Terra Labs** | Robotics Engineer → Project Manager
 *Los Angeles, CA · Feb 2026 – Present*
-* **Project Cove (Robotics Engineer):** Designed the control architecture for a 7-DOF arm on ROS 2, Raspberry Pi 5, and CAN-based BLDC actuators. Details in [Projects](#-cove-7-dof-robotic-arm).
+* **Project Cove (Robotics Engineer):** Control architecture and hardware/software integration for a 3-foot 7-DOF arm on ROS 2, Raspberry Pi 5, and CAN-based BLDC actuators. Built in 10 weeks and shown at Terra Labs Demo Day to 200+ attendees. Details in [Projects](#cove-7-dof-robotic-arm).
 * **Project Tether (Project Manager, Sep 2026 –):** Leading development of a 7-DOF inch-worm robot.
 
 ### **USC Makers** | Director of Technical Resources
@@ -86,9 +86,15 @@ Describe a circuit in plain language and Circuit Sensei walks you to a physicall
 ### Cove: 7-DOF Robotic Arm
 *Terra Labs · Robotics Engineer · Feb 2026 – Present · [ycjohnp/cove_motion_moveit2](https://github.com/ycjohnp/cove_motion_moveit2)*
 
-A 7-DOF arm built in 10 weeks. I designed the control architecture: ROS 2 on a Raspberry Pi 5 commanding CAN-based BLDC actuators.
+<p float="left">
+<img src="images/cove-arm.jpg" width="330">
+<img src="images/cove-cad.jpg" width="440">
+</p>
+
+A custom 3-foot, 7-DOF arm that autonomously prepares matcha with an electromagnetic end effector. Built in 10 weeks by a student team at Terra Labs and presented at Demo Day to 200+ attendees. I owned the control architecture and hardware/software integration: ROS 2 on a Raspberry Pi 5 commanding CAN-based BLDC actuators. [Demo video](https://www.isaac.engineering/projects/media/cove/cove-video.mp4) · [Project overview](https://www.isaac.engineering/projects/cove.html) on teammate Isaac Chan's site.
 
 * **Interfaces:** ROS 2 topics for `/joint_states`, `/target_joints`, and `/estop_event`, linking high-level commands to actuator-level control.
+* **Actuator Bring-Up:** CAN communication with the BLDC joint motors and subsystem bring-up on the assembled arm.
 * **Safety:** Hardware and software e-stop with heartbeat timeout, torque cutoff, and ROS 2 fault monitoring.
 * **Simulation:** URDF with joint dynamics, transmission tags, and collision geometry for Gazebo and MoveIt 2.
 
