@@ -8,6 +8,28 @@ Currently an Advanced Development Engineering Intern at SRAM, a Robotics Enginee
 
 ---
 
+## Experience
+
+**SRAM** · Advanced Development Engineering Intern · Chicago, IL · June 2026 – present
+Compact PCB design in Altium for AC-signal handling, balancing performance, cost, and manufacturability. PCBA support including component selection, bring-up, and debugging. Firmware and Android development for a resource-constrained device, and documentation supporting the transition from prototype to production.
+
+**Terra Labs** · Robotics Engineer (February 2026 – present), Project Manager (September 2026 – present) · Los Angeles, CA
+Projects Cove and Tether, described below.
+
+**USC Makers** · Director of Technical Resources · May 2026 – present
+Lead technical resource development for a 100+ member engineering club: documentation systems, tutorials, parts and project indexing, and sponsor and industry outreach.
+
+**Manycore Tech** · Machine Learning Engineer Intern, LLM/RAG · Hangzhou, China · May – July 2025
+Built a knowledge-graph-augmented RAG pipeline on Alibaba Bailian and KuzuDB, combining vector search, graph neighbor expansion, semantic filtering, and deduplication into a unified retrieval path. Improved retrieval relevance by 40% and reduced latency by 20%. Developed LangChain agents for multi-hop retrieval and containerized the system with Docker.
+
+**Robot Locomotion and Navigation Dynamics Lab, USC** · Undergraduate Researcher · August 2024 – present
+Research on multi-legged locomotion and body-leg phase coordination in cluttered environments. Redesigned the phase-control scheme from degree-based offsets to normalized phase offsets, executed 46 OptiTrack-tracked trials, built the kinematic data-processing pipeline, and iterated on the robot's mechanical and enclosure design.
+
+**MFE Education** · IoT Systems Intern · Shanghai, China · June – July 2024
+Developed an IoT device communication library for Huawei's Astro Dashboard, taking users from sensor setup to live cloud visualization in under 10 lines of code. Onboarding documentation reduced setup time by 50% across 70+ users.
+
+---
+
 ## Projects
 
 ### FlexSense: Tactile Sensing for Scrambler, a Passive Humanoid Climbing Hand
@@ -92,28 +114,6 @@ Designed a custom two-layer PCB in KiCad integrating an ESP32, a 6-DoF IMU, and 
 - **Embedded Temperature Monitor**: DS18B20 sensor, LCD, rotary encoder, servo, and RGB LED with EEPROM-stored thresholds and UART alerts. Implemented timer, interrupt, and PWM handling directly.
 
   <img src="https://raw.githubusercontent.com/ycjohnp/pictures_for_lahacks/main/20250429_004539.jpg" width="400">
-
----
-
-## Experience
-
-**SRAM** · Advanced Development Engineering Intern · Chicago, IL · June 2026 – present
-Compact PCB design in Altium for AC-signal handling, balancing performance, cost, and manufacturability. PCBA support including component selection, bring-up, and debugging. Firmware and Android development for a resource-constrained device, and documentation supporting the transition from prototype to production.
-
-**Terra Labs** · Robotics Engineer (February 2026 – present), Project Manager (September 2026 – present) · Los Angeles, CA
-Projects Cove and Tether, described above.
-
-**USC Makers** · Director of Technical Resources · May 2026 – present
-Lead technical resource development for a 100+ member engineering club: documentation systems, tutorials, parts and project indexing, and sponsor and industry outreach.
-
-**Manycore Tech** · Machine Learning Engineer Intern, LLM/RAG · Hangzhou, China · May – July 2025
-Built a knowledge-graph-augmented RAG pipeline on Alibaba Bailian and KuzuDB, combining vector search, graph neighbor expansion, semantic filtering, and deduplication into a unified retrieval path. Improved retrieval relevance by 40% and reduced latency by 20%. Developed LangChain agents for multi-hop retrieval and containerized the system with Docker.
-
-**Robot Locomotion and Navigation Dynamics Lab, USC** · Undergraduate Researcher · August 2024 – present
-Research on multi-legged locomotion and body-leg phase coordination in cluttered environments. Redesigned the phase-control scheme from degree-based offsets to normalized phase offsets, executed 46 OptiTrack-tracked trials, built the kinematic data-processing pipeline, and iterated on the robot's mechanical and enclosure design.
-
-**MFE Education** · IoT Systems Intern · Shanghai, China · June – July 2024
-Developed an IoT device communication library for Huawei's Astro Dashboard, taking users from sensor setup to live cloud visualization in under 10 lines of code. Onboarding documentation reduced setup time by 50% across 70+ users.
 
 ---
 
