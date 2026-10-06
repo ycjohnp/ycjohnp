@@ -1,128 +1,213 @@
-# John Peng
+# Hi, I'm John Peng 👋
 
-Electrical and Computer Engineering student at the University of Southern California, graduating December 2027. My work centers on robotics and embedded systems: firmware, PCB design, actuator control, and the ROS 2 software that ties them together.
+**Electrical & Computer Engineering @ USC · Class of 2027**
+*Robotics, embedded systems, and the hardware that holds them together.*
 
-Currently an Advanced Development Engineering Intern at SRAM, a Robotics Engineer and Project Manager at Terra Labs, and Director of Technical Resources for USC Makers. Previously a Machine Learning Engineer Intern at Manycore Tech, and an undergraduate researcher in the Robot Locomotion and Navigation Dynamics Lab at USC since 2024.
+I build robots and the electronics inside them: firmware, PCBs, actuator control, and the ROS 2 software on top. Currently at SRAM and Terra Labs, and running technical resources for USC Makers. Before that, LLM/RAG infrastructure at Manycore Tech and multi-legged locomotion research in USC's Robot Locomotion and Navigation Dynamics Lab.
 
-[LinkedIn](https://www.linkedin.com/in/yc-john-peng/) · johnpeng@usc.edu
-
----
-
-## Experience
-
-**SRAM** · Advanced Development Engineering Intern · Chicago, IL · June 2026 – present
-Compact PCB design in Altium for AC-signal handling, balancing performance, cost, and manufacturability. PCBA support including component selection, bring-up, and debugging. Firmware and Android development for a resource-constrained device, and documentation supporting the transition from prototype to production.
-
-**Terra Labs** · Robotics Engineer (February 2026 – present), Project Manager (September 2026 – present) · Los Angeles, CA
-Projects Cove and Tether, described below.
-
-**USC Makers** · Director of Technical Resources · May 2026 – present
-Lead technical resource development for a 100+ member engineering club: documentation systems, tutorials, parts and project indexing, and sponsor and industry outreach.
-
-**Manycore Tech** · Machine Learning Engineer Intern, LLM/RAG · Hangzhou, China · May – July 2025
-Built a knowledge-graph-augmented RAG pipeline on Alibaba Bailian and KuzuDB, combining vector search, graph neighbor expansion, semantic filtering, and deduplication into a unified retrieval path. Improved retrieval relevance by 40% and reduced latency by 20%. Developed LangChain agents for multi-hop retrieval and containerized the system with Docker.
-
-**Robot Locomotion and Navigation Dynamics Lab, USC** · Undergraduate Researcher · August 2024 – present
-Research on multi-legged locomotion and body-leg phase coordination in cluttered environments. Redesigned the phase-control scheme from degree-based offsets to normalized phase offsets, executed 46 OptiTrack-tracked trials, built the kinematic data-processing pipeline, and iterated on the robot's mechanical and enclosure design.
-
-**MFE Education** · IoT Systems Intern · Shanghai, China · June – July 2024
-Developed an IoT device communication library for Huawei's Astro Dashboard, taking users from sensor setup to live cloud visualization in under 10 lines of code. Onboarding documentation reduced setup time by 50% across 70+ users.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yc--john--peng-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yc-john-peng/)
+[![Email](https://img.shields.io/badge/Email-johnpeng%40usc.edu-D14836?style=flat&logo=gmail&logoColor=white)](mailto:johnpeng@usc.edu)
 
 ---
 
-## Projects
+## 🛠️ Tech Stack
 
-### FlexSense: Tactile Sensing for Scrambler, a Passive Humanoid Climbing Hand
-2nd Place, Himalaya Robotics Hack · 2026 · [ycjohnp/aruco-compliant-hand](https://github.com/ycjohnp/aruco-compliant-hand)
+**Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-e16737?style=flat&logo=mathworks&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog-1a1a1a?style=flat)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+
+**Robotics & Embedded**
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
+![MoveIt](https://img.shields.io/badge/MoveIt-22314E?style=flat)
+![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=flat)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
+![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat&logo=nvidia&logoColor=white)
+![CAN](https://img.shields.io/badge/CAN-555555?style=flat)
+![I2C / SPI / UART](https://img.shields.io/badge/I2C_·_SPI_·_UART-555555?style=flat)
+![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat&logo=bluetooth&logoColor=white)
+
+**Hardware Design**
+![Altium](https://img.shields.io/badge/Altium-A5915F?style=flat&logo=altiumdesigner&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad-3145A0?style=flat&logo=kicad&logoColor=white)
+![PCBA](https://img.shields.io/badge/PCBA_·_Reflow-333333?style=flat)
+![Oscilloscope](https://img.shields.io/badge/Oscilloscopes_·_Logic_Analyzers-333333?style=flat)
+
+**AI & Software**
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat&logo=yolo&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
+---
+
+## 💼 Experience
+
+### **SRAM** | Advanced Development Engineering Intern
+*Chicago, IL · Jun 2026 – Present*
+* **PCB Design:** Compact Altium boards for AC-signal handling, balancing electrical performance against cost, manufacturability, and supply-chain constraints.
+* **PCBA & Bring-Up:** Component selection, prototype assembly, board bring-up, and electrical debugging through design iteration.
+* **Firmware & App:** Firmware and Android development for a resource-constrained embedded product.
+* **Production Handoff:** Documentation, manufacturability review, and technical transition materials carrying an advanced-development product toward production.
+
+### **Terra Labs** | Robotics Engineer → Project Manager
+*Los Angeles, CA · Feb 2026 – Present*
+* **Project Cove (Robotics Engineer):** Designed the control architecture for a 7-DOF arm on ROS 2, Raspberry Pi 5, and CAN-based BLDC actuators. Details in [Projects](#-cove-7-dof-robotic-arm).
+* **Project Tether (Project Manager, Sep 2026 –):** Leading development of a 7-DOF inch-worm robot.
+
+### **USC Makers** | Director of Technical Resources
+*Los Angeles, CA · May 2026 – Present*
+* **Knowledge Systems:** Built Confluence-style databases for tutorials, past-project documentation, and onboarding across a 100+ member engineering club.
+* **Resource Indexing:** Cataloged hardware, software, and materials so teams stop re-solving the same problems.
+* **Sponsorship:** Support company outreach by aligning club needs with industry partners.
+
+### **Manycore Tech** | Machine Learning Engineer Intern, LLM/RAG
+*Hangzhou, China · May 2025 – Jul 2025*
+* **Knowledge-Graph RAG:** Built a KG-augmented retrieval pipeline on Alibaba Bailian and KuzuDB. Retrieval relevance up **40%**, latency down **20%** through optimized graph queries and vector-database integration.
+* **Unified Retrieval:** Combined vector search, KG neighbor expansion, semantic filtering, and deduplication into a single retrieval path.
+* **Agents:** LangChain agents for KG-driven multi-hop retrieval and evidence assembly across graph nodes.
+* **Data Layer:** High-performance KnowledgeGraph module for CSV ingestion, schema construction, and traversal. Containerized with Docker.
+
+### **Robot Locomotion and Navigation Dynamics Lab, USC** | Undergraduate Researcher
+*Los Angeles, CA · Aug 2024 – Present*
+* **Locomotion Research:** Multi-legged robot locomotion, focused on body-leg phase coordination and leg-obstacle interaction in cluttered terrain.
+* **Phase Control:** Redesigned the coordination scheme from degree-based offsets to **normalized phase offsets**, improving gait consistency and cross-condition comparability.
+* **Experimental Validation:** Ran **46 OptiTrack-tracked trials** with IR-marker 3D kinematics and built the data-processing pipeline to compare behavior across parameter configurations.
+* **Mechanical Iteration:** Refined servo mounts, gear spacing, cable routing, and enclosure design for reliability in obstacle-heavy environments.
+
+### **MFE Education** | IoT Systems Intern
+*Shanghai, China · Jun 2024 – Jul 2024*
+* **Device Library:** IoT communication library for Huawei's Astro Dashboard, taking users from sensor setup to live cloud visualization in under 10 lines of code.
+* **Adoption:** Onboarding docs cut setup time by **50%**; tested and refined the framework with 70+ users.
+
+---
+
+## 🚀 Projects
+
+### 🧗 FlexSense: Tactile Sensing for Scrambler
+*🏆 2nd Place, Himalaya Robotics Hack 2026 · [ycjohnp/aruco-compliant-hand](https://github.com/ycjohnp/aruco-compliant-hand)*
 
 <img src="https://raw.githubusercontent.com/ycjohnp/aruco-compliant-hand/main/docs/hud_wrapping.png" width="700">
 
-Scrambler is a fully passive climbing hand for the Unitree G1 that lets the humanoid drop to all fours and scramble terrain steeper than it can walk, with no added motors, wiring, or firmware. TPU Fin Ray fingers convert the robot's body weight into grip force. Built in 36 hours with a team; I owned the sensing side. Project overview on teammate Isaac Chan's site: [Scrambler](https://www.isaac.engineering/projects/scrambler.html).
+Scrambler is a fully passive climbing hand for the Unitree G1 that lets the humanoid drop to all fours and scramble terrain steeper than it can walk, with no added motors, wiring, or firmware. TPU Fin Ray fingers turn the robot's body weight into grip force. Built in 36 hours; I owned the sensing side. Team overview on [Isaac Chan's site](https://www.isaac.engineering/projects/scrambler.html).
 
-FlexSense is that sensing system. ArUco markers on each finger are tracked by a wrist-mounted camera, and the measured marker poses are used to reconstruct finger deflection, giving the robot a grip readout with zero electronics in the hand. The live tool classifies each finger as wrapping, neutral, or back-bending and renders the deformed finger CAD over the camera view.
+FlexSense is that sensing system: ArUco markers on each finger, tracked by a wrist camera, give a grip readout with zero electronics in the hand.
 
-Key components:
-- Full 6-DoF marker pose estimation, including resolution of the IPPE pose ambiguity through frame-to-frame tracking
-- Screen-based camera calibration using an animated on-screen target, which produced lower-error intrinsics than a printed ChArUco board
-- A co-rotational Euler-Bernoulli finite element solver with a Yeoh hyperelastic model for printed TPU, used to predict Fin Ray finger deformation under a given grip force
-- 123 unit tests, including solver validation against the elastica and large-rotation benchmarks
+* **Pose Estimation:** Full 6-DoF marker tracking, with the IPPE pose ambiguity resolved frame-to-frame.
+* **Calibration:** Screen-based camera calibration from an animated on-screen target, which outperformed a printed ChArUco board.
+* **Simulation:** Co-rotational Euler-Bernoulli FEM solver with a Yeoh hyperelastic TPU model to predict finger deformation under load.
+* **Live Tool:** Classifies each finger as wrapping, neutral, or back-bending and renders the bent CAD over the camera view. 123 unit tests.
+* **Stack:** Python, OpenCV, NumPy. Developed on a LeRobot SO-101; platform-independent.
 
-Developed on a LeRobot SO-101 arm; the pipeline is platform-independent. Python, OpenCV, NumPy.
-
-### Circuit Sensei: AI Agent for Breadboard Circuit Assembly and Verification
-LA Hacks, April 2026
+### 🔌 Circuit Sensei: AI Agent for Breadboard Assembly
+*LA Hacks 2026*
 
 <img src="https://raw.githubusercontent.com/ycjohnp/pictures_for_lahacks/main/original_test_led.png" width="700">
 
-An agent that takes a natural-language circuit goal and guides the user to a physically tested Arduino circuit. It generates a build plan, renders step-by-step breadboard diagrams, verifies each component placement through a webcam using Gemini Vision, and blocks progression until the step is correct. On completion it generates Arduino code, uploads it over serial, and runs electrical tests against the assembled circuit. Build and test steps are interleaved so errors are caught at the step where they occur.
+Describe a circuit in plain language and Circuit Sensei walks you to a physically tested Arduino build.
+
+* **Plan & Guide:** Generates a build plan and renders step-by-step breadboard diagrams.
+* **Verify:** Checks each component placement through a webcam with Gemini Vision and blocks progression until the step is correct.
+* **Test:** Generates Arduino code, uploads it over serial, and runs electrical tests on the finished circuit. Build and test steps are interleaved so mistakes surface where they happen.
+* **Stack:** Gemini 2.5, FastAPI + WebSockets, React, ElevenLabs voice, Arduino Uno running a JSON command interpreter over USB serial.
 
 <img src="https://raw.githubusercontent.com/ycjohnp/pictures_for_lahacks/main/Blank%20diagram%20(6).png" width="900">
 
-Stack: Gemini 2.5 for planning and vision, FastAPI with WebSockets, React, ElevenLabs voice, and an Arduino Uno running a JSON command interpreter over USB serial.
-
-### Cove: 7-DOF Robotic Arm
-Terra Labs · Robotics Engineer · February 2026 – present · [ycjohnp/cove_motion_moveit2](https://github.com/ycjohnp/cove_motion_moveit2)
+### 🦾 Cove: 7-DOF Robotic Arm
+*Terra Labs · Robotics Engineer · Feb 2026 – Present · [ycjohnp/cove_motion_moveit2](https://github.com/ycjohnp/cove_motion_moveit2)*
 
 A 7-DOF arm built in 10 weeks. I designed the control architecture: ROS 2 on a Raspberry Pi 5 commanding CAN-based BLDC actuators.
-- ROS 2 interfaces for `/joint_states`, `/target_joints`, and `/estop_event`, linking high-level commands to actuator-level control
-- Hardware and software e-stop with heartbeat timeout, torque cutoff, and ROS 2 fault monitoring
-- URDF with joint dynamics, transmission tags, and collision geometry for Gazebo and MoveIt 2 integration
 
-### Tether: 7-DOF Inch-Worm Robot
-Terra Labs · Project Manager · September 2026 – present
+* **Interfaces:** ROS 2 topics for `/joint_states`, `/target_joints`, and `/estop_event`, linking high-level commands to actuator-level control.
+* **Safety:** Hardware and software e-stop with heartbeat timeout, torque cutoff, and ROS 2 fault monitoring.
+* **Simulation:** URDF with joint dynamics, transmission tags, and collision geometry for Gazebo and MoveIt 2.
 
-Follow-on project to Cove: a 7-DOF robot that locomotes by inching along a surface. Currently in development.
+### 🐛 Tether: 7-DOF Inch-Worm Robot
+*Terra Labs · Project Manager · Sep 2026 – Present*
 
-### Vyz: Sensory Adaptation Headset
-Best Hardware Project, LA TechWeek AI/ML Buildathon · October 2025
+Follow-on to Cove. A 7-DOF robot that locomotes by inching along a surface. In development.
+
+### 👓 Vyz: Sensory Adaptation Headset
+*🏆 Best Hardware Project, LA TechWeek AI/ML Buildathon · Oct 2025*
 
 <p float="left">
 <img src="https://github.com/RakshetaK/GVO-Repo/blob/main/Images/vyz-physical-wearable.JPG" width="300">
 <img src="https://github.com/RakshetaK/GVO-Repo/blob/main/Images/vyz-compute-box.JPG" width="300">
 </p>
 
-A Jetson-powered headset that detects and mitigates visual and auditory overstimulation in real time. OpenCV tracks ambient brightness and drives a servo-actuated visor; a microphone feeds a real-time SciPy audio filter. A GPT-3.5-based intervention engine selects response parameters, with end-to-end latency under 200 ms. I was responsible for the multithreaded Python architecture, wire harnessing, and power distribution across the servo, LED, and sensor subsystems.
+A Jetson-powered headset that detects and mitigates visual and auditory overstimulation in real time.
 
-### SkateMo: Autonomous Skateboard
-USC Makers · Technical Project Lead · August 2025 – May 2026
+* **Hardware:** NVIDIA Jetson Orin Nano, servo-actuated visor, adaptive RGB LEDs. I did the wire harnesses and power distribution across the servo, LED, and sensor subsystems.
+* **Software:** Multithreaded Python with OpenCV brightness tracking, real-time SciPy audio filtering, and a Flask API to external inference.
+* **Response:** GPT-3.5-based intervention engine selects parameters with end-to-end latency under **200 ms**.
 
-Led a six-person team building a self-driving skateboard, owning integration across perception, navigation, and embedded control. Perception used OpenCV and YOLO with camera/IMU fusion; path planning was FSM-based and designed around skateboard steering dynamics; BLDC motor firmware handled speed regulation and current limiting. Ran design reviews and integration testing across the electrical, mechanical, and software subsystems.
+### 🛹 SkateMo: Autonomous Skateboard
+*USC Makers · Technical Project Lead · Aug 2025 – May 2026*
 
-### Self-Assembling Modular Robot System
-[ycjohnp/self-assembling-modular-robots](https://github.com/ycjohnp/self-assembling-modular-robots)
+Led a six-person team building a self-driving skateboard, owning integration across perception, navigation, and embedded control.
+
+* **Perception:** OpenCV + YOLO obstacle detection with camera/IMU fusion.
+* **Planning:** FSM-based path planning built around skateboard steering dynamics.
+* **Control:** BLDC motor firmware for speed regulation, current limiting, and direction.
+* **Integration:** Ran design reviews and full-system testing across electrical, mechanical, and software subsystems.
+
+### 🤖 Self-Assembling Modular Robot System
+*Independent Research · [ycjohnp/self-assembling-modular-robots](https://github.com/ycjohnp/self-assembling-modular-robots)*
 
 <img src="https://github.com/john02px/modular-robot/blob/main/modular-robot/Project%20Photos/Multi%20Module.JPG?raw=true" width="500">
 
-Independent research project. Each module has 4 DoF, wheeled locomotion, and electromagnetic connectors, allowing units to locate one another, attach, and reconfigure to complete tasks. ESP32 microcontrollers with PID control for motion; AprilTags and OpenCV for localization. Validated through tests of assembly speed, loaded performance, and connection strength.
+Modules that locate one another, attach, and reconfigure to complete a task.
 
-[Demo video](https://www.youtube.com/watch?v=8HDp2pXij3Y)
+* **Mechanism:** 4-DoF modules with wheeled locomotion and electromagnetic connectors.
+* **Control:** ESP32 microcontrollers with PID for precise positioning.
+* **Localization:** AprilTags and OpenCV. Validated through assembly-speed, loaded, and connection-strength tests.
 
-### Camshaft-Powered Braille Embosser
-[ycjohnp/novel-camshaft-braille-embosser](https://github.com/ycjohnp/novel-camshaft-braille-embosser)
+[![Modular Robot Demo](http://img.youtube.com/vi/8HDp2pXij3Y/0.jpg)](http://www.youtube.com/watch?v=8HDp2pXij3Y "Modular Robot Demo")
+
+### 🖨️ Camshaft-Powered Braille Embosser
+*Independent Research · [ycjohnp/novel-camshaft-braille-embosser](https://github.com/ycjohnp/novel-camshaft-braille-embosser)*
 
 <img src="https://raw.githubusercontent.com/john02px/braille-embosser/main/Project%20Images%20and%20Diagrams/Machine%20Picture%20(with%20banana%20for%20scale).jpg" width="400">
 
-Independent research project. Commercial embossers cost $2,000 or more and rely on loud linear solenoids. This design replaces them with a camshaft mechanism, bringing the parts cost to approximately $160, operating noise below 60 dB, and dot height tolerance to ±0.12 mm.
+Commercial embossers cost $2,000+ and rely on loud linear solenoids. This design uses a camshaft instead.
 
-### Karate Kid: Motion-Tracking Training Wearable
-USC Makers · Wireless Systems Lead · February – May 2025
+* **Cost:** ~$160 in parts.
+* **Performance:** Under 60 dB operating noise, dot height held to ±0.12 mm.
 
-Designed a custom two-layer PCB in KiCad integrating an ESP32, a 6-DoF IMU, and MOSFET-driven haptic motors. Wrote firmware mapping IMU quaternion data to a Unity skeleton over UDP, and managed the full PCBA process including BOM generation, stencil ordering, and reflow assembly.
+### 🥋 Karate Kid: Motion-Tracking Training Wearable
+*USC Makers · Wireless Systems Lead · Feb 2025 – May 2025*
 
-### Additional Projects
-- **IoT Smart Room Control** (EE250): Raspberry Pi 4 running YOLOv3-Tiny for presence detection, Arduino Uno for actuation, UART communication, and a web dashboard. [Repository](https://github.com/NamithGang/EE250FinalProject)
-- **Embedded Temperature Monitor**: DS18B20 sensor, LCD, rotary encoder, servo, and RGB LED with EEPROM-stored thresholds and UART alerts. Implemented timer, interrupt, and PWM handling directly.
+* **PCB:** Custom two-layer KiCad board with ESP32, 6-DoF IMU, and MOSFET-driven haptic motors.
+* **Firmware:** Maps IMU quaternions onto a Unity skeleton over UDP.
+* **Manufacturing:** BOM generation, stencil ordering, and reflow assembly for the prototype run.
 
-  <img src="https://raw.githubusercontent.com/ycjohnp/pictures_for_lahacks/main/20250429_004539.jpg" width="400">
+### 🏠 IoT Smart Room Control
+*EE250 Final Project · [Repository](https://github.com/NamithGang/EE250FinalProject)*
+
+<img src="https://raw.githubusercontent.com/NamithGang/EE250FinalProject/refs/heads/main/overall_diagram.png" width="700">
+
+* **Stack:** Raspberry Pi 4 (vision, YOLOv3-Tiny presence detection) and Arduino Uno (actuation) over UART, with a web dashboard for control.
+
+### 🌡️ Embedded Temperature Monitor
+*USC Embedded Systems · Spring 2025*
+
+<img src="https://raw.githubusercontent.com/ycjohnp/pictures_for_lahacks/main/20250429_004539.jpg" width="400">
+
+* **Hardware:** DS18B20 sensor, LCD, rotary encoder, servo, RGB LED.
+* **Firmware:** Timer-based control, EEPROM-stored thresholds, PWM, interrupts, and UART alerts.
 
 ---
 
-## Skills
+## 📫 Contact
 
-**Languages:** Python, C/C++, Java, MATLAB, Verilog, SQL
-**Robotics:** ROS 2, MoveIt, Gazebo, motion control, PID, BLDC and servo actuators
-**Embedded:** ESP32, Raspberry Pi, NVIDIA Jetson, RTOS, firmware debugging, hardware/software integration
-**Protocols:** CAN, I2C, SPI, UART, USB, Ethernet, TCP/IP, BLE
-**Hardware:** Altium, KiCad, schematic capture, PCB layout, PCBA, reflow assembly, oscilloscopes, logic analyzers
-**AI/ML:** PyTorch, OpenCV, YOLO, LangChain, vector databases, LLM APIs
-**Tools:** Git, Docker, Linux
+* [LinkedIn](https://www.linkedin.com/in/yc-john-peng/)
+* johnpeng@usc.edu
