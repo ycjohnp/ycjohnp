@@ -10,12 +10,14 @@ Currently an Advanced Development Engineering Intern at SRAM, a Robotics Enginee
 
 ## Projects
 
-### FlexSense: Camera-Based Deformation Sensing for a Compliant Hand
-[ycjohnp/aruco-compliant-hand](https://github.com/ycjohnp/aruco-compliant-hand)
+### FlexSense: Tactile Sensing for Scrambler, a Passive Humanoid Climbing Hand
+2nd Place, Himalaya Robotics Hack · 2026 · [ycjohnp/aruco-compliant-hand](https://github.com/ycjohnp/aruco-compliant-hand)
 
 <img src="https://raw.githubusercontent.com/ycjohnp/aruco-compliant-hand/main/docs/hud_wrapping.png" width="700">
 
-A passive, 3D-printed hand with flexure fingers that reports its own grip state. ArUco markers on each finger are tracked by a wrist-mounted camera, and the measured marker poses are used to reconstruct finger deflection. No strain gauges or wiring are required in the hand. The live tool classifies each finger as wrapping, neutral, or back-bending and renders the deformed finger CAD over the camera view.
+Scrambler is a fully passive climbing hand for the Unitree G1 that lets the humanoid drop to all fours and scramble terrain steeper than it can walk, with no added motors, wiring, or firmware. TPU Fin Ray fingers convert the robot's body weight into grip force. Built in 36 hours with a team; I owned the sensing side. Project overview on teammate Isaac Chan's site: [Scrambler](https://www.isaac.engineering/projects/scrambler.html).
+
+FlexSense is that sensing system. ArUco markers on each finger are tracked by a wrist-mounted camera, and the measured marker poses are used to reconstruct finger deflection, giving the robot a grip readout with zero electronics in the hand. The live tool classifies each finger as wrapping, neutral, or back-bending and renders the deformed finger CAD over the camera view.
 
 Key components:
 - Full 6-DoF marker pose estimation, including resolution of the IPPE pose ambiguity through frame-to-frame tracking
@@ -23,7 +25,7 @@ Key components:
 - A co-rotational Euler-Bernoulli finite element solver with a Yeoh hyperelastic model for printed TPU, used to predict Fin Ray finger deformation under a given grip force
 - 123 unit tests, including solver validation against the elastica and large-rotation benchmarks
 
-Demonstrated on a LeRobot SO-101 arm; the sensing pipeline is platform-independent. Python, OpenCV, NumPy.
+Developed on a LeRobot SO-101 arm; the pipeline is platform-independent. Python, OpenCV, NumPy.
 
 ### Circuit Sensei: AI Agent for Breadboard Circuit Assembly and Verification
 LA Hacks, April 2026
